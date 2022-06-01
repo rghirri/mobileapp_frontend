@@ -9,16 +9,45 @@
       href="vendor/bootstrap-4.4.1/css/bootstrap.min.css"
     />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Document</title>
+    <title>Mobile App</title>
   </head>
   <body>
-    <h1 class="display-2">hello world</h1>
-    <p>
-      Lorem ipsum dolor sit amet nulla placerat ad facilisis metus orci nibh
-      condimentum ipsum nam bibendum elementum tortor ligula commodo donec
-      ligula ultrices fringilla litora egestas platea gravida sociosqu sem
-    </p>
-
+    <header class="header">
+      <nav class="navbar navbar-expand-lg navbar-light bg-transparent pt-4">
+        <div class="container">
+          <!-- Logo -->
+          <a href="#" class="navbar-brand"
+            ><img src="images/logo.png" alt="logo"
+          /></a>
+          <!-- Toggle Button -->
+          <button
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navid"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- Navbar -->
+          <div class="collapse navbar-collapse" id="navid">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a href="" class="nav-link active">About</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Help</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Features</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link">Sign Up</a>
+              </li>
+            </ul>
+            <a href="#" class="btn btn-demo">Request Demo</a>
+          </div>
+        </div>
+      </nav>
+    </header>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="vendor/bootstrap-4.4.1/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
