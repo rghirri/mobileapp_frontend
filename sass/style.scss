@@ -340,3 +340,9 @@ li {
   text-transform: capitalize;
   color: #000000;
 }
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
