@@ -132,6 +132,18 @@ li {
   background: rgba(104, 201, 58, 0.1);
 }
 
+.feature-2 {
+  background: rgba(181, 58, 201, 0.1);
+}
+
+.feature-3 {
+  background: rgba(58, 72, 201, 0.13);
+}
+
+.feature-4 {
+  background: rgba(73, 166, 110, 0.17);
+}
+
 .feature-text {
   h3 {
     font-weight: 600;
@@ -179,4 +191,82 @@ li {
     background: #9760e4;
     color: #ffffff;
   }
+}
+
+// Testimonial Section
+
+.testimonial-content {
+  background: linear-gradient(
+    106.36deg,
+    rgba(107, 0, 255, 0.87) 0.6%,
+    rgba(156, 105, 226, 0.36) 97.89%
+  );
+  border-radius: 40px;
+  overflow: hidden;
+}
+
+.testimonial-text p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.testimonial-header {
+  font-weight: 800;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+.testimonial-inner {
+  background: #fff;
+  border-radius: 8px;
+}
+
+.testimonial-items {
+  margin-right: -350px;
+}
+
+.testimonial-inner img {
+  width: 50px;
+  height: 50px;
+}
+
+// slider custom styles
+.slick-slide {
+  margin-right: 25px;
+}
+
+.slick-dots {
+  width: auto;
+  left: -11px;
+  bottom: -50px;
+  li {
+    button::before {
+      opacity: 1;
+      color: #fff;
+      font-size: 8px;
+    }
+  }
+}
+
+.slick-dots {
+  li.slick-active {
+    button::before {
+      color: #f063b8;
+      font-size: 10px;
+    }
+  }
+}
+
+// slider arrows
+.slick-prev:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f30a';
+}
+
+.slick-next:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f30b';
 }
